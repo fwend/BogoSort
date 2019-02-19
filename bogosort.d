@@ -8,10 +8,7 @@ void main() {
 }
 
 int bogoSort(int[] a) {
-    int count;
     do {
         randomShuffle(a);
-        count++;
     } while (!isSorted(a));
-    return count;
 }
