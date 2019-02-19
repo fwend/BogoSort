@@ -7,7 +7,7 @@ void main() {
     writeln(a);      
 }
 
-int bogoSort(int[] a) {
+void bogoSort(int[] a) {
     do {
         randomShuffle(a);
     } while (!isSorted(a));
